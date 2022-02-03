@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardElevation="10dp"
+    app:cardCornerRadius="8dp"
+    android:layout_marginTop="5dp"
+    android:layout_marginBottom="5dp"
+    android:layout_marginLeft="5dp"
+    android:layout_marginRight="5dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dp"
+        android:background="@drawable/layoutround"
+        android:layout_gravity="left">
+
+        <TextView
+            android:id="@+id/clientname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:textColor="#0C0C0C"
+            android:hint="name"/>
+
+        <TextView
+            android:id="@+id/clientoccupation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#0C0C0C"
+            android:hint="occupation"/>
+
+        <TextView
+            android:id="@+id/clientadharno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#0C0C0C"
+            android:hint="adharno"/>
+
+        <TextView
+            android:id="@+id/clientplace"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#0C0C0C"
+            android:hint="place"/>
+
+        <TextView
+            android:id="@+id/clientpin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#0C0C0C"
+            android:hint="pin"/>
+
+        <TextView
+            android:id="@+id/clientno"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="15dp"
+            android:textColor="#0C0C0C"
+            android:hint="no of people"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
